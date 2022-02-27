@@ -6,8 +6,8 @@ import seaborn as sas
 
 ###Import_Data>>>>>>>>>>>>>###################################################################################################################
 """"Import_Data"""
-data_wine_red = pd.read_csv("E:\Statistics Department\Data scenice\Data Base\wine-quality\winequality-red.csv", sep=";")
-data_wine_white = pd.read_csv("E:\Statistics Department\Data scenice\Data Base\wine-quality\winequality-white.csv",
+data_wine_red = pd.read_csv("winequality-red.csv", sep=";")
+data_wine_white = pd.read_csv("winequality-white.csv",
                               sep=";")
 dataFrame_wine_red = pd.DataFrame(data_wine_red)
 dataFrame_wine_white = pd.DataFrame(data_wine_white)
